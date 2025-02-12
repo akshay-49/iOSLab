@@ -8,7 +8,7 @@ struct Rectangle {
     var height: Int
     
     var area: Int {
-        return width * height
+        width * height
     }
 }
 
@@ -29,6 +29,10 @@ struct Height {
             if heightInInches != oldValue {
                 heightInCentimeters = heightInInches * 2.54
             }
+            else {
+                print("New value same as old value!")
+        }
+
         }
     }
     
@@ -37,6 +41,12 @@ struct Height {
             if heightInCentimeters != oldValue {
                 heightInInches = heightInCentimeters / 2.54
             }
+            else {
+                print("New value same as old value!")
+        }
+
+          
+        
         }
     }
     
