@@ -81,8 +81,13 @@ var destroyer = Fighter(name: "Destroyer", health: 20, position: 1, weapon: "Gun
 var defender = ShieldedShip(name: "Defender", health: 20, position: 1, weapon: "Gun", remainingFirePower: 5, shieldStrength: 2)
 
 //:  Create a new constant named `sameShip` and set it equal to `falcon`. Print out the position of `sameShip` and `falcon`, then call `moveLeft()` on `sameShip` and print out the position of `sameShip` and `falcon` again. Did both positions change? Why? If both were structs instead of classes, would it be the same? Why or why not? Provide your answer in a comment or print statement below.
-
-
+let sameShip = falcon
+print(sameShip.position)
+print(falcon.position)
+sameShip.moveLeft()
+print(sameShip.position)
+print(falcon.position)
+/* Classes are reference types and here both sameShip and falcon are referring to the same object (i.e spaceship). If both of them were struct instead they would be independent and the positions wouldnt change together*/
 /*:
  _Copyright © 2021 Apple Inc._
 
