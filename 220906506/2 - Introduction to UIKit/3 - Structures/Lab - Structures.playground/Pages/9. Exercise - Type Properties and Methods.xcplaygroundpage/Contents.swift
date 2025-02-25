@@ -16,9 +16,8 @@ struct User {
 }
 
 let user1 = User(userName: "akshay.49", email: "akshay.49@outlook.com ", age: 19)
-
-User.currentUser = user1
 User.logIn(user: user1)
+
 print(user1.email)
 print(user1.age)
 
@@ -30,7 +29,8 @@ print(user1.age)
 let user2 = User(userName: "xyz", email: "xyz@outlook.com ", age: 20)
     
 User.logIn(user: user2)
-
+print(user2.email)
+print(user2.age)
 /*:
 [Previous](@previous)  |  page 9 of 10  |  [Next: App Exercise - Type Properties and Methods](@next)
  */
