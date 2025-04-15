@@ -125,7 +125,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="tinted" title="Next"/>
                                         <connections>
-                                            <segue destination="ewD-K3-ac8" kind="showDetail" id="WEC-4r-fqA"/>
+                                            <segue destination="ewD-K3-ac8" kind="show" id="yPT-ji-QpI"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -164,11 +164,6 @@
                                 <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Button"/>
-                                <connections>
-                                    <segue destination="2m0-Iv-2bf" kind="popoverPresentation" popoverAnchorView="5E6-Ac-Wdc" id="5Fs-mi-Q7R">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kyf-X8-7rj"/>
@@ -277,11 +272,11 @@
             <objects>
                 <viewController id="2m0-Iv-2bf" customClass="OrangeViewController" customModule="SegueProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wpm-3n-3y2">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS7-Kc-bGk">
-                                <rect key="frame" x="159" y="403.66666666666669" width="75" height="35"/>
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Button"/>
                                 <connections>
